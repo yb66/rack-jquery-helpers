@@ -6,6 +6,7 @@ module Rack
     # Bits of code that were being duplicated in each rack-jquery* library.
     module Helpers
 
+      # Build the headers for caching.
       # @param [String] etag
       # @param [String] last_modified
       # @return [Hash]
