@@ -3,6 +3,9 @@ require "rack/jquery/helpers/version"
 module Rack
   class JQuery
 
+    # Ten years in seconds.
+    TEN_YEARS  = 60 * 60 * 24 * 365 * 10
+
     # Bits of code that were being duplicated in each rack-jquery* library.
     module Helpers
 
