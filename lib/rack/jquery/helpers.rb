@@ -1,7 +1,7 @@
 require "rack/jquery/helpers/version"
 
 module Rack
-  module JQuery
+  class JQuery
     module Helpers
 
       def caching_headers( etag )
