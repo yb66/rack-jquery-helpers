@@ -2,8 +2,13 @@ require "rack/jquery/helpers/version"
 
 module Rack
   class JQuery
+
+    # Bits of code that were being duplicated in each rack-jquery* library.
     module Helpers
 
+      # @param [String] etag
+      # @param [String] last_modified
+      # @return [Hash]
       def caching_headers( etag, last_modified )
         {
           "Last-Modified" => last_modified,
