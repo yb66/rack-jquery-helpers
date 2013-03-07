@@ -1,4 +1,5 @@
 require "rack/jquery/helpers/version"
+require 'rack'
 
 module Rack
   class JQuery
