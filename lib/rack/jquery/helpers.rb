@@ -4,9 +4,9 @@ module Rack
   class JQuery
     module Helpers
 
-      def caching_headers( etag )
+      def caching_headers( etag, last_modified )
         {
-          "Last-Modified" => JQUERY_UI_VERSION_DATE,
+          "Last-Modified" => last_modified,
           "Expires"    => Rack::Utils.rfc2109(Time.now + TEN_YEARS),
           "Cache-Control" => "max-age=#{TEN_YEARS},public",
           "Etag"          => etag,
