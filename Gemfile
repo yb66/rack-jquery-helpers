@@ -9,8 +9,9 @@ group :test do
 end
 
 group :development do
-  gem "wirble"
+  gem "rake"
   gem "pry"
+  gem "pry-byebug"
   gem "pry-nav"
   gem "yard"
   gem "maruku"
