@@ -19,3 +19,4 @@ tmp
 vendor/
 vendor.noindex/
 bin/
+.ruby-version
