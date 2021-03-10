@@ -1,5 +1,7 @@
 # Rack::Jquery::Helpers
 
+NO LONGER IN DEVELOPMENT, obvs.
+
 Helpers for the [rack-jquery](https://github.com/yb66/rack-jquery), [rack-jquery_ui](https://github.com/yb66/rack-jquery_ui), and [rack-jquery_ui-themes](https://github.com/yb66/rack-jquery_ui-themes) libraries.
 
 ## Installation
